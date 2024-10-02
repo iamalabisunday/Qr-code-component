@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #D5E1EF;
+}
+
+.qr-code-component {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code-container {
+    width: 320px;
+    height: 499px;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color:white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* Qr-Image-Section */
+
+.qr-image-container {
+    width: fit-content;
+    height: auto;
+}
+
+.qr-image-container img {
+    width: 288px;
+    height: 288px;
+}
+
+/* Text-section */
+
+.text-section {
+    width: 288px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* heading-text */
+
+.heading-text-container {
+    width: fit-content;
+    height: auto;
+}
+
+.heading-text-container h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #1F314F;
+    text-align: center;
+}
+
+/* body-text */
+
+.body-text-container {
+    width: 256px;
+    height: 63px;
+}
+
+.body-text-container p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 140%;
+    text-align: center;
+    color: #1F314F;
+}
